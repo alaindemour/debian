@@ -84,7 +84,7 @@ IFS=$'\n\t'
 
 NEW_USER="deploy"
 SSH_PORT="2222"
-YOUR_PUBLIC_KEY="ssh-ed25519 AAAA...your_public_key_here"
+YOUR_PUBLIC_KEY="ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJHXBw5vt+qrJUu8I8Z+d5WVrBUiBu/Rc8OCOxjG7Oyy trading-vps"
 
 
 # =============================================================================
@@ -223,7 +223,7 @@ apt install -y \
     logrotate \
     htop \
     tmux \
-    openjdk-17-jre-headless \
+    openjdk-21-jre-headless \
     xvfb
 
 
